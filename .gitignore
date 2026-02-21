@@ -56,3 +56,4 @@ test-results/
 # Coverage reports
 jacoco/
 
+.github/
