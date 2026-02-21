@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AccessProjector</string>
+
+    <!-- Titles -->
+    <string name="title_permission">Permissions Required</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_label">AccessProjector Service</string>
+    <string name="accessibility_service_description">Monitors UI events and performs gestures to enable automation features.</string>
+
+    <!-- Sections -->
+    <string name="section_accessibility">Accessibility Service</string>
+    <string name="section_capture">Screen Capture (MediaProjection)</string>
+    <string name="section_log">Event Log</string>
+
+    <!-- Status -->
+    <string name="status_a11y_enabled">● Service enabled</string>
+    <string name="status_a11y_disabled">○ Service disabled</string>
+    <string name="status_capture_active">● Capture active</string>
+    <string name="status_capture_idle">○ Capture idle</string>
+
+    <!-- Buttons -->
+    <string name="btn_enable_a11y">Enable Service</string>
+    <string name="btn_disable_a11y">Disable Service</string>
+    <string name="btn_collect_text">Collect Text</string>
+    <string name="btn_tap_center">Tap Screen Center</string>
+    <string name="btn_start_capture">Start Capture</string>
+    <string name="btn_stop_capture">Stop Capture</string>
+    <string name="btn_screenshot">Take Screenshot</string>
+    <string name="btn_clear">Clear</string>
+
+    <!-- Notification -->
+    <string name="notification_capture_title">Screen capture running</string>
+    <string name="notification_capture_text">AccessProjector is capturing your screen.</string>
+    <string name="action_stop_capture">Stop</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_disable_a11y_title">Disable Accessibility Service</string>
+    <string name="dialog_disable_a11y_msg">To disable the service, open Accessibility Settings and turn it off manually.</string>
+    <string name="dialog_open_settings">Open Settings</string>
+    <string name="permission_dialog_title">Accessibility Permission Required</string>
+    <string name="permission_dialog_message">This app needs the Accessibility permission to monitor and interact with the screen. Please enable it in Settings.</string>
+
+    <!-- Log -->
+    <string name="log_placeholder">Events will appear here…</string>
+</resources>
