@@ -1,4 +1,4 @@
 # AccessProjector
 
-Native Android app with AccessibilityService and MediaProjection.
-See the `genspark_ai_developer` branch for the full implementation.
+A native Android app written in **Kotlin** that demonstrates two advanced Android APIs:
+AccessibilityService and MediaProjection, with a Gradle wrapper and GitHub Actions CI.
