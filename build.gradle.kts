@@ -1,5 +1,18 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+// Root build.gradle.kts file
+
 plugins {
-    alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.kotlin.android) apply false
+    kotlin("jvm") version "1.5.0"
+    application
+}
+
+application {
+    mainClassName = "com.example.MainKt"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(kotlin("stdlib"))
 }
